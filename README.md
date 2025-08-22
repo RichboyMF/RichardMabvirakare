@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my journey as a Final Year Ele
 
 ## 🌟 Live Demo
 
-**[View Portfolio →](https://e-portfolio-omega-coral.vercel.app/)**
+**[View Portfolio →](https://richard-mabvirakare.vercel.app/)**
 
 ## 🚀 About This Project
 
