@@ -5,6 +5,31 @@ import { PROJECTS_DATA } from "../constants";
 import type { ProjectItem } from "../types";
 import { GithubIcon, LinkIcon } from "./Icons";
 
+// Helper component to find and link the "Cars4Mars" text
+const TextWithLink: React.FC<{ text: string }> = ({ text }) => {
+  const parts = text.split(/(Cars4Mars)/gi);
+  return (
+    <>
+      {parts.map((part, index) =>
+        part.toLowerCase() === "cars4mars" ? (
+          <a
+            key={index}
+            href="https://cars4mars.co.za/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:underline"
+            onClick={(e) => e.stopPropagation()} // Prevents the card's onClick from firing
+          >
+            {part}
+          </a>
+        ) : (
+          part
+        )
+      )}
+    </>
+  );
+};
+
 const ProjectCard: React.FC<{ project: ProjectItem; index: number }> = ({
   project,
   index,
@@ -21,9 +46,11 @@ const ProjectCard: React.FC<{ project: ProjectItem; index: number }> = ({
         className="w-full h-48 object-cover"
       />
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+        <h3 className="text-xl font-bold text-white mb-2">
+          <TextWithLink text={project.title} />
+        </h3>
         <p className="text-slate-400 text-sm mb-4 flex-grow">
-          {project.description}
+          <TextWithLink text={project.description} />
         </p>
         <div className="flex flex-wrap gap-2 mb-4">
           {project.tags.map((tag) => (

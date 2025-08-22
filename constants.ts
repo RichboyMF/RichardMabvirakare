@@ -191,9 +191,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
     ],
   },
   {
-    title: "African Rover Challenge",
+    title: "African Rover Challenge (Cars4Mars)",
     description:
-      "Designed and built a Mars rover prototype for the African Rover Challenge. The project involved creating a small, wirelessly controlled mobile robot with an independent power source. Proud to be a top 10 finalist in this prestigious competition.",
+      "Designed and built a Mars rover prototype for an African Rover Challenge (Cars4Mars). The project involved creating a small, wirelessly controlled mobile robot with an independent power source. Proud to be a top 10 finalist in this prestigious competition.",
     tags: [
       "Robotics",
       "Prototyping",
