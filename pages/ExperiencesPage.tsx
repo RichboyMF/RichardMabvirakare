@@ -259,7 +259,9 @@ export const ExperiencesPage: React.FC = () => {
                 </div>
               ))}
             </div>
-            {(selected.githubUrl || selected.liveUrl) && (
+            {(selected.githubUrl ||
+              selected.liveUrl ||
+              selected.certificateUrl) && (
               <div className="flex items-center gap-4 mt-4 pt-4 border-t border-slate-700">
                 {selected.githubUrl && selected.githubUrl !== "#" && (
                   <a
@@ -281,6 +283,29 @@ export const ExperiencesPage: React.FC = () => {
                   >
                     <LinkIcon className="w-5 h-5" />
                     <span>Live Demo</span>
+                  </a>
+                )}
+                {selected.certificateUrl && (
+                  <a
+                    href={selected.certificateUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors"
+                  >
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                    <span>Certificate</span>
                   </a>
                 )}
               </div>

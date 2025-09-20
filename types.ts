@@ -16,6 +16,7 @@ export interface ExperienceItem {
   detailedDescription?: string;
   githubUrl?: string;
   liveUrl?: string;
+  certificateUrl?: string;
 }
 
 export interface ProjectItem {
@@ -25,8 +26,18 @@ export interface ProjectItem {
   imageUrl: string;
   githubUrl?: string;
   liveUrl?: string;
+  certificateUrl?: string;
   media?: MediaItem[];
   detailedDescription?: string;
+}
+
+export interface CertificateItem {
+  title: string;
+  issuer: string;
+  date: string;
+  description: string;
+  filePath: string;
+  category: "academic" | "competition" | "professional";
 }
 
 export interface SocialLink {

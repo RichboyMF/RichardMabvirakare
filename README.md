@@ -105,7 +105,7 @@ This portfolio was created as part of my Engineering curriculum at the Universit
 **Richard Mabvirakare**
 
 - 📧 Email: richardmabvirakare@email.com
-- 💼 LinkedIn: [Richard Mabvirakare](https://www.linkedin.com/in/richardmabvirakare-190995225/)
+- 💼 LinkedIn: [Richard Mabvirakare](https://www.linkedin.com/in/rlichard-mabvirakare-1a979a271)
 - 🐙 GitHub: [RichboyMF](https://github.com/RichboyMF)
 
 ## 📄 License

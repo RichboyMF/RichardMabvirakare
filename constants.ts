@@ -111,6 +111,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     ],
     detailedDescription:
       "I participated in an intensive practical training workshop at CPUT designed specifically for engineering students. The workshop focused on developing hands-on skills and applying theoretical engineering concepts in practical scenarios. We worked with various electrical and mechanical systems, learning about circuit design, component testing, and system integration. This experience was crucial in bridging the gap between classroom learning and real-world engineering applications.",
+    certificateUrl: "/docs/CPUT - Certificate.pdf",
     media: [
       {
         type: "image",
@@ -145,6 +146,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     imageUrl: "https://picsum.photos/seed/cs50-editor/400/300",
     githubUrl: "https://github.com/me50/RichardM-0",
     liveUrl: "https://youtu.be/fGAjEeMaEHY",
+    certificateUrl: "/docs/CS50x -  Certificate.pdf",
     detailedDescription:
       "This was my final project for Harvard's CS50x, born from a need to efficiently test AI-generated code and experiment with React libraries. It's a specialized development environment featuring an Express.js backend that handles file system operations, and a React frontend that provides a powerful user interface. Key features include a Monaco-based code editor for syntax highlighting and auto-completion, a component registry, and a real-time preview that updates as you type. I tackled several technical challenges, including implementing atomic file writes to prevent race conditions and optimizing the system for performance. The project demonstrates a comprehensive understanding of full-stack development, from API design to front-end state management.",
     media: [
@@ -191,9 +193,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
     ],
   },
   {
-    title: "African Rover Challenge (Cars4Mars)",
+    title: "African Rover Challenge",
     description:
-      "Designed and built a Mars rover prototype for an African Rover Challenge (Cars4Mars). The project involved creating a small, wirelessly controlled mobile robot with an independent power source. Proud to be a top 10 finalist in this prestigious competition.",
+      "Designed and built a Mars rover prototype for the African Rover Challenge. The project involved creating a small, wirelessly controlled mobile robot with an independent power source. Proud to be a top 10 finalist in this prestigious competition.",
     tags: [
       "Robotics",
       "Prototyping",
@@ -204,6 +206,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
     imageUrl: "https://picsum.photos/seed/rover/400/300",
     githubUrl: "#",
     liveUrl: "https://youtu.be/-dCe-NkaN2w?si=CkhKDQGj7hbzOqxX",
+    certificateUrl:
+      "/docs/Locked In Aliens South Africa PERSEVERANCE AWARD Cars4Mars African Rover Challenge 2025 Certificate.pdf",
     detailedDescription:
       "The African Rover Challenge was a comprehensive robotics project that tested our skills in mechanical design, electrical engineering, and software development. Our team designed and built a Mars rover prototype that could navigate challenging terrain, perform scientific tasks, and operate autonomously. The rover featured wireless control systems, independent power management, and a robust mechanical design to withstand harsh conditions. Being selected as a top 10 finalist was a significant achievement that validated our engineering approach and problem-solving capabilities.",
     media: [
@@ -268,12 +272,12 @@ export const PROJECTS_DATA: ProjectItem[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "Email",
-    url: "mailto:richardmabvirakare@email.com",
+    url: "mailto:richardmabvirakare@gmail.com",
     icon: MailIcon,
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/richardmabvirakare-190995225/",
+    url: "https://www.linkedin.com/in/richard-mabvirakare-1a979a271",
     icon: LinkedinIcon,
   },
   {
