@@ -277,7 +277,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/richard-mabvirakare-1a979a271",
+    url: "https://www.linkedin.com/in/richard-mabvirakare-190995225",
     icon: LinkedinIcon,
   },
   {
